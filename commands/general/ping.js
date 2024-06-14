@@ -2,7 +2,7 @@ const Ping = async(client, m, dreadedspeed, sendReact) => {
 
 await sendReact("✈️");
 
-const Dreaded = await client.sendMessage(m.chat, { text: 'Checking my speed. . .' }, {quoted: m});
+const Dreaded = await client.sendMessage(m.chat, { text: 'Dragon pinging . .' }, {quoted: m});
 
 await client.relayMessage(m.chat, {
       protocolMessage: {
